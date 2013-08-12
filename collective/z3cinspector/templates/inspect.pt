@@ -166,6 +166,9 @@
                         <option value="mate %(path)s -l %(line)s">
                             Editor: textmate
                         </option>
+                        <option value="subl -n -e %(path)s:%(line)s">
+                            Editor: Sublime Text 2
+                        </option>
                     </select>
                     <textarea name="open_command" id="configOpenCommand"
                               tal:content="config/open_command"
